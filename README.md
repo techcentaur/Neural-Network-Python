@@ -4,36 +4,38 @@ Feed-forward Neural network implementation in python - using numpy library.
 
 # Functions Usage
 
-### [Activation Values](https://github.com/techcentaur/Neural-Network-Python/blob/master/activation_values.py)
+- [Activation Values](https://github.com/techcentaur/Neural-Network-Python/blob/master/activation_values.py)
 
-The file contain a function which will return the activation values in output of an input layer
+    The file contain a function which will return the activation values in output of an input layer
 
 
-### [Back Propagation](https://github.com/techcentaur/Neural-Network-Python/blob/master/back_propagation.py)
+- [Back Propagation](https://github.com/techcentaur/Neural-Network-Python/blob/master/back_propagation.py)
 
-The file contain a function which will return a tuple as the gradient for the cost function, according to the famous back propagation algorithm.
+    The file contain a function which will return a tuple as the gradient for the cost function, according to the famous back propagation algorithm.
 
-### [Cost Derivative](https://github.com/techcentaur/Neural-Network-Python/blob/master/cost_derivative.py)
+- [Cost Derivative](https://github.com/techcentaur/Neural-Network-Python/blob/master/cost_derivative.py)
 
-This file contain a function which returns the vector of partial derivatives.
+    This file contain a function which returns the vector of partial derivatives.
 
-### [Sigmoid Functions](https://github.com/techcentaur/Neural-Network-Python/blob/master/sigmoid_functions.py)
+- [Sigmoid Functions](https://github.com/techcentaur/Neural-Network-Python/blob/master/sigmoid_functions.py)
 
-This file contains 2 functions:
+    This file contains 2 functions:
 
-> sigmoid
-It returns the sigmoid function
+`sigmoid.py`
 
-> sigmoid_prime
-It returns the derivative of sigmoid function
+    It returns the sigmoid function
 
-### [Stochastic Gradient Descent](https://github.com/techcentaur/Neural-Network-Python/blob/master/stochastic_gradient_descent.py)
+`sigmoid_prime`
 
-This File contains a function which will train Neural Network using mini-batchs.
+    It returns the derivative of sigmoid function
 
-### [Update Mini Batch](https://github.com/techcentaur/Neural-Network-Python/blob/master/update_mini_batch.py)
+- [Stochastic Gradient Descent](https://github.com/techcentaur/Neural-Network-Python/blob/master/stochastic_gradient_descent.py)
 
-The File contains a function which will update the network's weights and biases by applying gradient descent using backpropagation to a single mini batch.
+    This File contains a function which will train Neural Network using mini-batchs.
+
+- [Update Mini Batch](https://github.com/techcentaur/Neural-Network-Python/blob/master/update_mini_batch.py)
+
+    The File contains a function which will update the network's weights and biases by applying gradient descent using backpropagation to a single mini batch.
 
 
 ## [Neural Network](https://github.com/techcentaur/Neural-Network-Python/blob/master/neural_network.py)
