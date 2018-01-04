@@ -23,11 +23,11 @@ Feed-forward Neural network implementation in python - using numpy library.
 
 `sigmoid.py`
 
-    It returns the sigmoid function
+It returns the sigmoid function
 
 `sigmoid_prime`
 
-    It returns the derivative of sigmoid function
+It returns the derivative of sigmoid function
 
 - [Stochastic Gradient Descent](https://github.com/techcentaur/Neural-Network-Python/blob/master/stochastic_gradient_descent.py)
 
